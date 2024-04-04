@@ -1,0 +1,43 @@
+/* Style for list items */
+#list li {
+    padding: 5px;
+    margin-bottom: 5px;
+    background-color: #f0f0f0; /* Default background color */
+    transition: background-color 0.3s; /* Smooth transition */
+}
+
+/* Change background color on hover */
+#list li:hover {
+    background-color: #e0e0e0; /* Lighter background color on hover */
+}
+
+/* Style for buttons */
+button {
+    padding: 5px 10px;
+    margin-left: 5px;
+    background-color: #007bff; /* Default button background color */
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Smooth transition */
+}
+
+/* Change button background color on hover */
+button:hover {
+    background-color: #0056b3; /* Darker background color on hover */
+}
+
+/* Style for input field */
+#input {
+    padding: 5px;
+    margin-right: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    transition: border-color 0.3s; /* Smooth transition */
+}
+
+/* Change border color of input field on focus */
+#input:focus {
+    border-color: #007bff; /* Border color on focus */
+}
